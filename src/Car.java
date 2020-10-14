@@ -28,7 +28,7 @@ public class Car {
 	}
 	
 	public void method4(int x, int y) {
-		System.out.println(x + y + "method4가 실행됩니다.");
+		System.out.println("method4가 실행됩니다. 두 변수의 합 = " + x + y);
 	}
 	
 	public int method5(int y) {
