@@ -6,6 +6,8 @@ public class CarExam {
 		// c1, c2 = 만들어진  Car 객체를 참조하는 변수
 		Car c1 = new Car();
 		Car c2 = new Car();
+//		Car c3 = new Car("경찰차"); // 생성자를 선언했을 때!
+//		System.out.println(c3.name);
 		
 		// 객체에 속성 추가하기
 		c1.name = "소방차";
