@@ -35,9 +35,4 @@ public class Car {
 		System.out.println(y + "를 이용한 method5가 실행됩니다.");
 		return y * 2;
 	}
-	
-	// 생성자 선언
-//	public Car(String n) {
-//		name = n;
-//	}
 }
