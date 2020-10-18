@@ -4,15 +4,16 @@ public class DoWhile {
 	
 	public static void main(String[] args) {
 		int value = 0;
-		Scanner scan = new Scanner(System.in); // Å°º¸µå·ÎºÎÅÍ °ªÀ» ÀÔ·Â¹ŞÀ» Å¬·¡½º º¯¼ö "scan"
+		Scanner scan = new Scanner(System.in); // í‚¤ë³´ë“œë¡œë¶€í„° ê°’ì„ ì…ë ¥ë°›ì„ í´ë˜ìŠ¤ ë³€ìˆ˜ "scan"
 		
 		do {
-			// ¹İº¹ÇÒ ¹®Àå
+			// ë°˜ë³µí•  ë¬¸ì¥
 			value = scan.nextInt();
-			System.out.println("ÀÔ·Â¹ŞÀº °ª: " + value);
+			System.out.println("ì…ë ¥ë°›ì€ ê°’: " + value);
 		}while(value != 10);
 		
-		System.out.println("¹İº¹¹® Á¾·á1");
+		System.out.println("ë°˜ë³µë¬¸ ì¢…ë£Œ");
+		scan.close();
 	}
 
 }

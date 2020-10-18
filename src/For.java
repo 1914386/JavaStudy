@@ -2,31 +2,31 @@
 public class For {
 	
 	public static void main(String[] args) {
-		//1¿¡¼­ 100±îÁö ÇÕ
+		// 1ì—ì„œ 100ê¹Œì§€ í•©
 		int total = 0;
 		
 		for(int i=1; i<=100; i++) {
 			total += i;
 		}
 		
-		System.out.println("1ºÎÅÍ 100±îÁöÀÇ ÇÕ: " + total);
+		System.out.println("1ë¶€í„° 100ê¹Œì§€ì˜ í•©: " + total);
 		
 		
-		//1¿¡¼­ 100 Áß Â¦¼öÀÇ ÇÕ
+		// 1ì—ì„œ 100 ì¤‘ ì§ìˆ˜ì˜ í•©
 		int sum = 0;
 		
 		for(int j=1; j<=100; j++) {
 			if(j % 2 != 0) {
-				continue; // È¦¼ö´Â ³Ñ¾î°¡°í ´Ù½Ã ¹İº¹¹® ¼öÇà
+				continue; // í™€ìˆ˜ëŠ” ë„˜ì–´ê°€ê³  ë‹¤ì‹œ ë°˜ë³µë¬¸ ìˆ˜í–‰
 			}
 			sum += j;
 //			if (j == 50) {
-//				break; // j = 50ÀÌ µÇ¸é ¹İº¹¹® Á¾·á
+//				break; // j = 50ì´ ë˜ë©´ ë°˜ë³µë¬¸ ì¢…ë£Œ
 //			}
 		}
 		
-		System.out.println("1ºÎÅÍ 100±îÁöÀÇ ¼ıÀÚ Áß Â¦¼öÀÇ ÇÕ: "+ sum);
-//		System.out.println("1ºÎÅÍ 50±îÁöÀÇ ÇÕ: "+ sum);
+		System.out.println("1ë¶€í„° 100ê¹Œì§€ì˜ ìˆ«ì ì¤‘ ì§ìˆ˜ì˜ í•©: "+ sum);
+//		System.out.println("1ë¶€í„° 50ê¹Œì§€ì˜ í•©: "+ sum);
 	}
 
 }

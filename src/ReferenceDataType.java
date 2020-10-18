@@ -2,14 +2,14 @@
 public class ReferenceDataType {
 
 	public static void main(String[] args) {
-		// ±âº»Çü Å¸ÀÔ
-		int i = 4; // 4byte Å©±âÀÇ Á¤¼öÇü º¯¼ö i¿¡ 4¸¦ ´ëÀÔ
+		// ê¸°ë³¸í˜• íƒ€ìž…
+		int i = 4; // 4byte í¬ê¸°ì˜ ì •ìˆ˜í˜• ë³€ìˆ˜ iì— 4ë¥¼ ëŒ€ìž…
 		
-		// ÂüÁ¶Çü Å¸ÀÔ
+		// ì°¸ì¡°í˜• íƒ€ìž…
 		String str = new String("Hello");
-		  // new: µÚ¿¡ ³ª¿À´Â »ý¼ºÀÚ¸¦ ÀÌ¿ëÇÏ¿© ¸Þ¸ð¸®¿¡ °´Ã¼¸¦ ¸¸µé¶ó´Â ¸í·É¾î
-		  // ÀÎ½ºÅÏ½º: Å¬·¡½º°¡ ¸Þ¸ð¸®¿¡ »ý¼ºµÈ »óÅÂ. Å¬·¡½º·ÎºÎÅÍ »ý¼ºµÈ °´Ã¼. New ¿¹¾à¾î¸¦ ÅëÇØ »ý¼ºµÈ´Ù.
-		  // str: String °´Ã¼¸¦ ÂüÁ¶ÇÏ´Â º¯¼ö. ¸Þ¸ð¸®ÀÇ ÁÖ¼Ò°¡ ÀúÀåµÈ´Ù.
+		  // new: ë’¤ì— ë‚˜ì˜¤ëŠ” ìƒì„±ìžë¥¼ ì´ìš©í•˜ì—¬ ë©”ëª¨ë¦¬ì— ê°ì²´ë¥¼ ë§Œë“¤ë¼ëŠ” ëª…ë ¹ì–´
+		  // ì¸ìŠ¤í„´ìŠ¤: í´ëž˜ìŠ¤ê°€ ë©”ëª¨ë¦¬ì— ìƒì„±ëœ ìƒíƒœ. í´ëž˜ìŠ¤ë¡œë¶€í„° ìƒì„±ëœ ê°ì²´. New ì˜ˆì•½ì–´ë¥¼ í†µí•´ ìƒì„±ëœë‹¤.
+		  // str: String ê°ì²´ë¥¼ ì°¸ì¡°í•˜ëŠ” ë³€ìˆ˜. ë©”ëª¨ë¦¬ì˜ ì£¼ì†Œê°€ ì €ìž¥ëœë‹¤.
 	}
 
 }

@@ -17,7 +17,7 @@ public class While {
 			a++;
 		}
 		
-		System.out.println("1ºÎÅÍ 100±îÁöÀÇ ÇÕ = " + total);
+		System.out.println("1ë¶€í„° 100ê¹Œì§€ì˜ í•© = " + total);
 		
 	}
 

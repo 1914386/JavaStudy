@@ -1,11 +1,11 @@
 
 public class VariableScope {
 	
-	int globalScope = 10; // º¯¼ö »ç¿ë¹üÀ§: Å¬·¡½º ÀüÃ¼
+	int globalScope = 10; // ë³€ìˆ˜ ì‚¬ìš©ë²”ìœ„: í´ë˜ìŠ¤ ì „ì²´
 	static int staticVal = 30;
 	
-	public void ScopeTest(int value) { // ScopeTest ¸Ş¼Òµå »ı¼º
-		int localScope = 20; // º¯¼ö »ç¿ë¹üÀ§: ¸Ş¼Òµå ³»ºÎ
+	public void ScopeTest(int value) { // ScopeTest ë©”ì†Œë“œ ìƒì„±
+		int localScope = 20; // ë³€ìˆ˜ ì‚¬ìš©ë²”ìœ„: ë©”ì†Œë“œ ë‚´ë¶€
 		
 		System.out.println(globalScope);
 		System.out.println(localScope);
@@ -15,17 +15,17 @@ public class VariableScope {
 	
 	public void scopeTest2(int value2) {
 		System.out.println(globalScope);
-//		System.out.println(localScope); // ¿¡·¯ ¹ß»ı
-//		System.out.println(value);      // ¿¡·¯ ¹ß»ı
+//		System.out.println(localScope); // ì—ëŸ¬ ë°œìƒ
+//		System.out.println(value);      // ì—ëŸ¬ ë°œìƒ
 		System.out.println(value2);
 		System.out.println(staticVal);
 	}
 	
-	public static void main(String[] args) { // static: ÀÎ½ºÅÏ½º¸¦ ¸¸µéÁö ¾Ê¾Æµµ »ç¿ëÇÒ ¼ö ÀÖÀ½. staticÇÑ ÇÊµå(¼Ó¼º)¸¸ »ç¿ë °¡´É
-//		System.out.println(globalScope); // ¿¡·¯ ¹ß»ı - Å¬·¡½º´Â ÀÎ½ºÅÏ½ºÈ­ ÇÏÁö ¾ÊÀº Ã¤·Î »ç¿ë ºÒ°¡. staticÇÏÁö ¾ÊÀ½
-//		System.out.println(localScope);  // ¿¡·¯ ¹ß»ı
-//		System.out.println(value);       // ¿¡·¯ ¹ß»ı
-//		System.out.println(value2);      // ¿¡·¯ ¹ß»ı
+	public static void main(String[] args) { // static: ì¸ìŠ¤í„´ìŠ¤ë¥¼ ë§Œë“¤ì§€ ì•Šì•„ë„ ì‚¬ìš©í•  ìˆ˜ ìˆìŒ. staticí•œ í•„ë“œ(ì†ì„±)ë§Œ ì‚¬ìš© ê°€ëŠ¥
+//		System.out.println(globalScope); // ì—ëŸ¬ ë°œìƒ - í´ë˜ìŠ¤ëŠ” ì¸ìŠ¤í„´ìŠ¤í™” í•˜ì§€ ì•Šì€ ì±„ë¡œ ì‚¬ìš© ë¶ˆê°€. staticí•˜ì§€ ì•ŠìŒ
+//		System.out.println(localScope);  // ì—ëŸ¬ ë°œìƒ
+//		System.out.println(value);       // ì—ëŸ¬ ë°œìƒ
+//		System.out.println(value2);      // ì—ëŸ¬ ë°œìƒ
 		System.out.println(staticVal);
 		
 		VariableScope v1 = new VariableScope();
@@ -35,12 +35,12 @@ public class VariableScope {
 		v1.globalScope = 1;
 		v2.globalScope = 2;
 		System.out.println(v1.globalScope);
-		System.out.println(v2.globalScope); // °ª ÀúÀå°ø°£ÀÌ °è¼Ó »ı±è - ÀÎ½ºÅÏ½º º¯¼ö
+		System.out.println(v2.globalScope); // ì¸ìŠ¤í„´ìŠ¤ ë³€ìˆ˜ - ê°’ ì €ì¥ê³µê°„ì´ ê³„ì† ìƒê¹€
 		
 		v1.staticVal = 3;
 		v2.staticVal = 4;
 		System.out.println(v1.staticVal);
-		System.out.println(v2.staticVal); // °ª ÀúÀå°ø°£ÀÌ 1°³ - Å¬·¡½º º¯¼ö
+		System.out.println(v2.staticVal); // í´ë˜ìŠ¤ ë³€ìˆ˜ - ê°’ ì €ì¥ ê³µê°„ì´ 1ê°œ
 		System.out.println(VariableScope.staticVal);
 		
 	}

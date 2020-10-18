@@ -1,6 +1,6 @@
 package boj;
 
-public class _10171_°í¾çÀÌ {
+public class _10171_ê³ ì–‘ì´ {
 
 	public static void main(String[] args) {
 		System.out.println("\\    /\\");

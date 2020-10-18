@@ -7,21 +7,21 @@ public class If {
 		
 /*
 		if (x < y) {
-			System.out.println("x´Â yº¸´Ù ÀÛ½À´Ï´Ù.");
+			System.out.println("xëŠ” yë³´ë‹¤ ìž‘ìŠµë‹ˆë‹¤.");
 			System.out.println("test");
 		}
 		
 		if (x < y)
-			System.out.println("x´Â y¿Í °°½À´Ï´Ù.");
+			System.out.println("xëŠ” yì™€ ê°™ìŠµë‹ˆë‹¤.");
 		System.out.println("test2");
 */
 		
 		if (x == y) {
-			System.out.println("x´Â y¿Í °°½À´Ï´Ù.");
+			System.out.println("xëŠ” yì™€ ê°™ìŠµë‹ˆë‹¤.");
 		}else if (x < y) {
-			System.out.println("x´Â yº¸´Ù ÀÛ½À´Ï´Ù.");
+			System.out.println("xëŠ” yë³´ë‹¤ ìž‘ìŠµë‹ˆë‹¤.");
 		}else {
-			System.out.println("x´Â yº¸´Ù Å®´Ï´Ù");
+			System.out.println("xëŠ” yë³´ë‹¤ í½ë‹ˆë‹¤.");
 		}
 		
 	}

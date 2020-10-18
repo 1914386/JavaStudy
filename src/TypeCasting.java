@@ -10,27 +10,28 @@ public class TypeCasting {
 		
 		int i1 = -5;
 		int i2 = +i1;
-		int i3 = -i1; //¿¬»êÀÚ¸¦ ¹Ù²Ù·Á¸é - ¸¦ »ç¿ë!! 
+		int i3 = -i1; // ì—°ì‚°ìë¥¼ ë°”ê¾¸ë ¤ë©´ - ë¥¼ ì‚¬ìš©!! 
 		
-		System.out.println(i1);
-		System.out.println(i2);
-		System.out.println(i3);
+		System.out.println(i1); // i1 = -5
+		System.out.println(i2); // i2 = -5
+		System.out.println(i3); // i3 = 5
 		
-		int i4 = ++i3; // i3 = i3+1 ´õÇÏ°í ´ëÀÔ
-		System.out.println(i4);
-		System.out.println(i3);
+		int i4 = ++i3; // i3 = i3+1 ë”í•˜ê³  ëŒ€ì…
+		System.out.println(i4); // i4 = 6
+		System.out.println(i3); // i3 = 6
 		
-		int i5 = i3++; // ´ëÀÔÇÏ°í ´õÇØÁü
-		System.out.println(i5);
-		System.out.println(i3);
+		int i5 = i3++; // ëŒ€ì…í•˜ê³  ë”í•´ì§
+		System.out.println(i5); // i5 = 6
+		System.out.println(i3); // i3 = 7
 		
 		int i = 5;
 		int j = 2;
 		System.out.println(i + j);
 		System.out.println(i - j);
 		System.out.println(i * j);
-		System.out.println(i / (double) j);
-		//Á¤¼ö³¢¸®ÀÇ ¿¬»êÀº Á¤¼ö°ªÀ¸·Î ¸®ÅÏÅğ¹Ç·Î ÃÖ¼ÒÇÑ ÇÏ³ª¸¦ ½Ç¼ö·Î º¯È¯ÇØ¾ß ÇÔ
+		System.out.println(i / j); // 2
+		System.out.println(i / (double) j); // 2.5
+		// ì •ìˆ˜ë¼ë¦¬ì˜ ì—°ì‚°ì€ ì •ìˆ˜ê°’ìœ¼ë¡œ ë¦¬í„´í‡´ë¯€ë¡œ ìµœì†Œí•œ í•˜ë‚˜ë¥¼ ì‹¤ìˆ˜ë¡œ ë³€í™˜í•´ì•¼ í•¨
 		System.out.println(i % j);
 	}
 

@@ -12,7 +12,7 @@ public class Enum {
 		Gender gender2;
 		gender2 = Gender.MALE;
 		gender2 = Gender.FEMALE;
-//		gender2 = "boy"; // MALE, FEMALE ÀÌ¿ÜÀÇ °ªÀº ÀúÀå ºÒ°¡
+//		gender2 = "boy"; // MALE, FEMALE ì´ì™¸ì˜ ê°’ì€ ì €ì¥ ë¶ˆê°€
 	}
 
 }

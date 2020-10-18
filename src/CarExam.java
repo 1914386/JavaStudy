@@ -2,18 +2,18 @@
 public class CarExam {
 
 	public static void main(String[] args) {
-		// Car() »ı¼ºÀÚ: ¸Ş¸ğ¸®¿¡ °´Ã¼(ÀÎ½ºÅÏ½º)¸¦ ¸¸µé¶ó´Â ¸í·É¾î
-		// c1, c2 = ¸¸µé¾îÁø  Car °´Ã¼¸¦ ÂüÁ¶ÇÏ´Â º¯¼ö
+		// Car() ìƒì„±ì: ë©”ëª¨ë¦¬ì— ê°ì²´(ì¸ìŠ¤í„´ìŠ¤)ë¥¼ ë§Œë“¤ë¼ëŠ” ëª…ë ¹ì–´
+		// c1, c2 = ë§Œë“¤ì–´ì§„ Car ê°ì²´ë¥¼ ì°¸ì¡°í•˜ëŠ” ë³€ìˆ˜
 		Car c1 = new Car();
 		Car c2 = new Car();
-		Car2 c3 = new Car2("°æÂûÂ÷"); // »ı¼ºÀÚ¸¦ ¼±¾ğÇßÀ» ¶§!
+		Car2 c3 = new Car2("ê²½ì°°ì°¨"); // ìƒì„±ìë¥¼ ì„ ì–¸í–ˆì„ ë•Œ
 		System.out.println(c3.name);
 		
-		// °´Ã¼¿¡ ¼Ó¼º Ãß°¡ÇÏ±â
-		c1.name = "¼Ò¹æÂ÷";
+		// ê°ì²´ì— ì†ì„± ì¶”ê°€í•˜ê¸°
+		c1.name = "ì†Œë°©ì°¨";
 		c1.number = 1234;
 		
-		c2.name = "±¸±ŞÂ÷";
+		c2.name = "êµ¬ê¸‰ì°¨";
 		c2.number = 1111;
 		
 		System.out.println(c1.name);
@@ -22,15 +22,15 @@ public class CarExam {
 		System.out.println(c2.number);
 		
 		
-		// °´Ã¼¿¡ ¸Ş¼Òµå Ãß°¡ÇÏ±â
+		// ê°ì²´ì— ë©”ì†Œë“œ ì¶”ê°€í•˜ê¸°
 		Car myclass = new Car();
 		myclass.method1();
 		myclass.method2(2);
 		int value1 = myclass.method3();
-		System.out.println("method3ÀÇ ¸®ÅÏ°ª = " + value1);
+		System.out.println("method3ì˜ ë¦¬í„´ê°’ = " + value1);
 		myclass.method4(2, 4);
 		int value2 = myclass.method5(5);
-		System.out.println("method5ÀÇ ¸®ÅÏ°ª = " + value2);
+		System.out.println("method5ì˜ ë¦¬í„´ê°’ = " + value2);
 	}
 
 }

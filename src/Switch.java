@@ -2,9 +2,9 @@
 public class Switch {
 	
 	public static void main(String[] args) {
-		//switch, case
-		//default - else¿Í °°Àº ÀÇ¹Ì
-		//break - switch ¹® ¹Ù±ùÀ¸·Î ºüÁ®³ª¿È
+		// switch, case
+		// default - elseì™€ ê°™ì€ ì˜ë¯¸
+		// break - switch ë¬¸ ë°”ê¹¥ìœ¼ë¡œ ë¹ ì ¸ë‚˜ì˜´
 		
 		int value = 2;
 		
@@ -19,13 +19,13 @@ public class Switch {
 				System.out.println("3");
 				break;
 			default:
-				System.out.println("±× ¿Ü ´Ù¸¥ ¼ıÀÚ");
+				System.out.println("ê·¸ ì™¸ ë‹¤ë¥¸ ìˆ«ì");
 				break;
 		}
 		
 		String str = "A";
 		
-		switch(str) { //¹®ÀÚ¿­·Îµµ switch¹® ½ÇÇà °¡´É
+		switch(str) { // ë¬¸ìì—´ë¡œë„ switchë¬¸ ì‹¤í–‰ ê°€ëŠ¥
 			case "A":
 				System.out.println("A");
 				break;

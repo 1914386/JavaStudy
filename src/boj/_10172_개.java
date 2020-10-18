@@ -1,6 +1,6 @@
 package boj;
 
-public class _10172_°³ {
+public class _10172_ê°œ {
 
 	public static void main(String[] args) {
 		System.out.println("|\\_/|");

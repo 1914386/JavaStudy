@@ -1,8 +1,8 @@
 
 public class Car2 {
 	String name;
-	
-	public Car2(String n) { // »ı¼ºÀÚ ¼±¾ğ
+	// ìƒì„±ì ì„ ì–¸
+	public Car2(String n) { 
 		name = n;
 	}
 }

@@ -1,6 +1,6 @@
 
 public class HelloWorld {
-//	ÇÁ·Î±×·¥ÀÇ ½ÃÀÛÁ¡
+//	í”„ë¡œê·¸ë¨ì˜ ì‹œì‘ì 
 	/**
 	 * 
 	 * @param args
@@ -8,16 +8,16 @@ public class HelloWorld {
 	public static void main(String[] args) {
 		System.out.println("Hello World");
 /*		System.out.println("test");
-		System.out.println("¾È³çÇÏ¼¼¿ä");	*/
-		System.out.println("´ÜÃàÅ° Ctrl+/");
+		System.out.println("ì•ˆë…•í•˜ì„¸ìš”");	*/
+		System.out.println("ë‹¨ì¶•í‚¤ Ctrl+/");
 		
 		int count;
 		count = 10;
-		count = 20; //count °ªÀº 20ÀÌ µÊ.
+		count = 20; //count ê°’ì€ 20ì´ ë¨
 		
 		System.out.println(count);
 		
-//¿À·ù	count = 11.1;
+//  	count = 11.1; // ì˜¤ë¥˜
 		
 		double avg = 11.1;
 		
@@ -36,11 +36,11 @@ public class HelloWorld {
 		boolean isFun = false;
 		System.out.println(isFun);
 		
-		char c = 'f'; //ÇÏ³ªÀÇ ¹®ÀÚ¸¸À» Ç¥Çö
+		char c = 'f'; // í•˜ë‚˜ì˜ ë¬¸ìë§Œì„ í‘œí˜„
 		
-		int x = 59; //59¶ó´Â °ª ÀÚÃ¼¸¦ ¸®ÅÍ·²ÀÌ¶ó°í ÇÔ
+		int x = 59; // 59ë¼ëŠ” ê°’ ìì²´ë¥¼ ë¦¬í„°ëŸ´ì´ë¼ê³  í•¨
 		
-		long bing = 1914386413l; //¹İµå½Ã µÚ¿¡ L ¶Ç´Â l Ç¥Çö
+		long bing = 1914386413l; // ë°˜ë“œì‹œ ë’¤ì— L ë˜ëŠ” l í‘œí˜„
 		
 		float f = 32.4f;
 		

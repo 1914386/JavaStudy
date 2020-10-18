@@ -14,27 +14,27 @@ public class Array {
 		System.out.println("value = " + value);
 		
 		
-		//for ¹İº¹¹®À» ÀÌ¿ëÇÏ¿© ¹è¿­ »ç¿ëÇÏ±â
+		// for ë°˜ë³µë¬¸ì„ ì´ìš©í•˜ì—¬ ë°°ì—´ ì‚¬ìš©í•˜ê¸°
 		int[] iarray = new int[100];
 		System.out.println("iarray.length = " + iarray.length);
 		for(int i=0; i<iarray.length; i++) {
-			iarray[i] = i + 1; // 1ºÎÅÍ 100±îÁö
+			iarray[i] = i + 1; // 1ë¶€í„° 100ê¹Œì§€
 		}
 		
 		int sum = 0;
 		for(int i=0; i<iarray.length; i++) {
-			sum += iarray[i]; // ¹è¿­¿¡ ´ã±ä ¼ıÀÚÀÇ ÇÕ
+			sum += iarray[i]; // ë°°ì—´ì— ë‹´ê¸´ ìˆ«ìì˜ í•©
 		}
 		System.out.println("sum = " + sum);
 		
 		
-		// 2Â÷¿ø ¹è¿­
+		// 2ì°¨ì› ë°°ì—´
 		int[][] array4 = new int[3][4];
 		array4[0][0] = 10;
 		
-		int[][] array5 = new int[3][]; // index°¡ °¡¸®Å°°í ÀÖ´Â ºÎºĞÀÌ ¾øÀ½
-		// array5[0][0] = 10; // ¿À·ù ¹ß»ı
-		// °¡·ÎÁÙ °³¼ö
+		int[][] array5 = new int[3][]; // indexê°€ ê°€ë¦¬í‚¤ê³  ìˆëŠ” ë¶€ë¶„ì´ ì—†ìŒ
+		// array5[0][0] = 10; // ì˜¤ë¥˜ ë°œìƒ
+		// ê°€ë¡œì¤„ ê°œìˆ˜
 		array5[0] = new int[1];
 		array5[1] = new int[2];
 		array5[2] = new int[3];
@@ -50,7 +50,7 @@ public class Array {
 			int value1 = iarr[i];
 			System.out.println(value1);
 		}
-		// for each¹®À» È°¿ëÇÑ °°Àº ¸í·É¾î
+		// for eachë¬¸ì„ í™œìš©í•œ ê°™ì€ ëª…ë ¹ì–´
 		for(int value2:iarr) {
 			System.out.println(value2);
 		}

@@ -2,62 +2,62 @@
 public class StringClass {
 
 	public static void main(String[] args) {
-		// String Å¬·¡½º: ¹®ÀÚ¿­À» Ç¥ÇöÇÏ´Â ÀÚ¹Ù¿¡¼­ °¡Àå ¸¹ÀÌ ÀÌ¿ëÇÏ´Â Å¬·¡½º.
-		String str1 = "Hello";  // »ó¼ö ¿µ¿ª¿¡ ÀúÀå
-		String str2 = "Hello";  // str1°ú str2´Â °°Àº °´Ã¼(ÀÎ½ºÅÏ½º)¸¦ ÂüÁ¶ = °°Àº ·¹ÆÛ·±½º
+		// String í´ë˜ìŠ¤: ë¬¸ìì—´ì„ í‘œí˜„í•˜ëŠ” ìë°”ì—ì„œ ê°€ì¥ ë§ì´ ì´ìš©í•˜ëŠ” í´ë˜ìŠ¤
+		String str1 = "Hello";  // ìƒìˆ˜ ì˜ì—­ì— ì €ì¥
+		String str2 = "Hello";  // str1ê³¼ str2ëŠ” ê°™ì€ ê°ì²´(ì¸ìŠ¤í„´ìŠ¤)ë¥¼ ì°¸ì¡° = ê°™ì€ ë ˆí¼ëŸ°ìŠ¤
 		
 		
-		// new ¿¬»êÀÚ¸¦ ÀÌ¿ëÇÏÁö ¾Ê°í °´Ã¼(ÀÎ½ºÅÏ½º)¸¦ ¸¸µé¾î³¾ ¼ö ÀÖ´Ù.
-		String str3 = new String("Java");  // »ó¼ö ¿µ¿ª¿¡ ÀúÀåÇÏÁö ¾Ê°í, »õ °´Ã¼(ÀÎ½ºÅÏ½º)¸¦ heap ¿µ¿ª¿¡ »ı¼º
-		String str4 = new String("Java");  // str3°ú str4´Â ´Ù¸¥ ·¹ÆÛ·±½º
+		// new ì—°ì‚°ìë¥¼ ì´ìš©í•˜ì§€ ì•Šê³  ê°ì²´(ì¸ìŠ¤í„´ìŠ¤)ë¥¼ ë§Œë“¤ì–´ë‚¼ ìˆ˜ ìˆë‹¤.
+		String str3 = new String("Java");  // ìƒìˆ˜ ì˜ì—­ì— ì €ì¥í•˜ì§€ ì•Šê³ , ìƒˆ ê°ì²´(ì¸ìŠ¤í„´ìŠ¤)ë¥¼ heap ì˜ì—­ì— ìƒì„±
+		String str4 = new String("Java");  // str3ê³¼ str4ëŠ” ë‹¤ë¥¸ ë ˆí¼ëŸ°ìŠ¤
 		
 		if (str1 == str2)
-			System.out.println("str1°ú str2´Â °°Àº ·¹ÆÛ·±½ºÀÔ´Ï´Ù.");
+			System.out.println("str1ê³¼ str2ëŠ” ê°™ì€ ë ˆí¼ëŸ°ìŠ¤ì…ë‹ˆë‹¤.");
 		
 		if (str1 == str3)
-			System.out.println("str1°ú str3Àº °°Àº ·¹ÆÛ·±½ºÀÔ´Ï´Ù.");
+			System.out.println("str1ê³¼ str3ì€ ê°™ì€ ë ˆí¼ëŸ°ìŠ¤ì…ë‹ˆë‹¤.");
 		
 		if (str3 == str4)
-			System.out.println("str3°ú str4´Â °°Àº ·¹ÆÛ·±½ºÀÔ´Ï´Ù.");
+			System.out.println("str3ê³¼ str4ëŠ” ê°™ì€ ë ˆí¼ëŸ°ìŠ¤ì…ë‹ˆë‹¤.");
 		
 		
-		// String Å¬·¡½º¸¸ÀÇ Æ¯Â¡ - ÇÑ ¹ø »ı¼ºµÇ¸é º¯ÇÏÁö ¾Ê´Â´Ù
+		// String í´ë˜ìŠ¤ë§Œì˜ íŠ¹ì§• - í•œ ë²ˆ ìƒì„±ë˜ë©´ ë³€í•˜ì§€ ì•ŠëŠ”ë‹¤
 		System.out.println(str1);
-		System.out.println(str1.substring(3)); // 3¹ø ÀÎµ¦½ººÎÅÍ Ãâ·Â
-		System.out.println(str1); // ³»ºÎ °ª ºÒº¯
+		System.out.println(str1.substring(3)); // 3ë²ˆ ì¸ë±ìŠ¤ë¶€í„° ì¶œë ¥
+		System.out.println(str1); // ë‚´ë¶€ ê°’ ë¶ˆë³€
 		
 		
-		// String Å¬·¡½ºÀÇ equals ¸Ş¼Òµå: º¯¼öÀÇ ·¹ÆÛ·±½º°¡ ¾Æ´Ñ, º¯¼ö°¡ ÀúÀåÇÏ´Â ¹®ÀÚ¿­ÀÌ °°ÀºÁö È®ÀÎÇÏ°í ½ÍÀ» ¶§
+		// String í´ë˜ìŠ¤ì˜ equals ë©”ì†Œë“œ: ë³€ìˆ˜ì˜ ë ˆí¼ëŸ°ìŠ¤ê°€ ì•„ë‹Œ, ë³€ìˆ˜ê°€ ì €ì¥í•˜ëŠ” ë¬¸ìì—´ì´ ê°™ì€ì§€ í™•ì¸í•˜ê³  ì‹¶ì„ ë•Œ
 		if (str1.equals("Hello"))
-			System.out.println("str1Àº Hello¿Í °°½À´Ï´Ù.");
+			System.out.println("str1ì€ Helloì™€ ê°™ìŠµë‹ˆë‹¤.");
 		
 		if (str3.equals(str4)) {
-			System.out.println("str3°ú str4´Â °°Àº °ªÀ» °¡Áö°í ÀÖ½À´Ï´Ù.");
+			System.out.println("str3ê³¼ str4ëŠ” ê°™ì€ ê°’ì„ ê°€ì§€ê³  ìˆìŠµë‹ˆë‹¤.");
 		}
 		else {
-			System.out.println("str3°ú str4´Â ´Ù¸¥ °ªÀ» °¡Áö°í ÀÖ½À´Ï´Ù.");
+			System.out.println("str3ê³¼ str4ëŠ” ë‹¤ë¥¸ ê°’ì„ ê°€ì§€ê³  ìˆìŠµë‹ˆë‹¤.");
 		}
 		
 		if (str1.equals(str4)) {
-			System.out.println("str1°ú str4´Â °°Àº °ªÀ» °¡Áö°í ÀÖ½À´Ï´Ù.");
+			System.out.println("str1ê³¼ str4ëŠ” ê°™ì€ ê°’ì„ ê°€ì§€ê³  ìˆìŠµë‹ˆë‹¤.");
 		}
 		else {
-			System.out.println("str1°ú str4´Â ´Ù¸¥ °ªÀ» °¡Áö°í ÀÖ½À´Ï´Ù.");
+			System.out.println("str1ê³¼ str4ëŠ” ë‹¤ë¥¸ ê°’ì„ ê°€ì§€ê³  ìˆìŠµë‹ˆë‹¤.");
 		}
 		
 		
-		// String Å¬·¡½º°¡ Á¦°øÇÏ´Â ¸Ş¼Òµå
+		// String í´ë˜ìŠ¤ê°€ ì œê³µí•˜ëŠ” ë©”ì†Œë“œ
 		String str = "hello";
 		
-		System.out.println(str.length()); // ¹®ÀÚ¿­ÀÇ ±æÀÌ
-		System.out.println(str.concat(" world")); // ¹®ÀÚ¿­ ºÙÀÌ±â
-		System.out.println(str); // str °ªÀº º¯ÇÏÁö ¾ÊÀ½
+		System.out.println(str.length()); // ë¬¸ìì—´ì˜ ê¸¸ì´
+		System.out.println(str.concat(" world")); // ë¬¸ìì—´ ë¶™ì´ê¸°
+		System.out.println(str); // str ê°’ì€ ë³€í•˜ì§€ ì•ŠìŒ
 		
 		str = str.concat(" world");
-		System.out.println(str); // À§ÀÇ ÀÛ¾÷À» °ÅÄ¡¸é str °ªÀÌ º¯ÇÔ
+		System.out.println(str); // ìœ„ì˜ ì‘ì—…ì„ ê±°ì¹˜ë©´ str ê°’ì´ ë³€í•¨
 		
 		System.out.println(str.substring(3));
-		System.out.println(str.substring(3, 7)); // ¹®ÀÚ¿­ ÀÚ¸£±â
+		System.out.println(str.substring(3, 7)); // ë¬¸ìì—´ ìë¥´ê¸°
 	}
 
 }

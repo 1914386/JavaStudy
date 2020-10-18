@@ -18,9 +18,9 @@ public class LogicalOperator {
 		
 		int score = 88;
 		if(score <= 100 && score >= 70) {
-			System.out.println("¼º°ø");
+			System.out.println("ì„±ê³µ");
 		}else {
-			System.out.println("½ÇÆÐ");
+			System.out.println("ì‹¤íŒ¨");
 		}
 		
 		int b5 = (5 > 4) ? 50 : 40; //true --> 50
@@ -28,7 +28,7 @@ public class LogicalOperator {
 		int b6 = (5 < 4) ? 50 : 40; //false --> 40
 		System.out.println(b6);
 
-		//À§¿Í °°Àº ½Ä		
+		// ìœ„ì™€ ê°™ì€ ì‹		
 //		int b7 = 0;
 //		if (5 > 4)
 //			b7 = 50;
