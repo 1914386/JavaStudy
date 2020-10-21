@@ -35,4 +35,8 @@ public class Car {
 		System.out.println(y + "를 이용한 method5이 실행됩니다.");
 		return y * 2;
 	}
+	
+	public void run() {
+		System.out.println("달리다.");
+	}
 }
