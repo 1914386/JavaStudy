@@ -8,6 +8,5 @@ public class AccessObj {
 	int k = 2;  // 디폴트 접근지정자. 자기 자신과 같은 패키지에서만 접근 가능
 
 	private int i = 1;  // 자기 자신만 접근 가능
-	
 
 }
