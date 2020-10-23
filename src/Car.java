@@ -39,4 +39,8 @@ public class Car {
 	public void run() {
 		System.out.println("달리다.");
 	}
+	
+	public Car() {
+		System.out.println("Car의 기본 생성자");
+	}
 }

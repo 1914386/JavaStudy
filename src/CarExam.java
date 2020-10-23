@@ -48,6 +48,9 @@ public class CarExam {
 		
 		// 타 패키지에서 생성한 클래스를 사용하기: Ctrl + Shift + o(알파벳)
 		Hello h = new Hello();
+		
+		// 부모 생성자 Car와 자식 생성자 Truck
+		Truck t = new Truck();
 	}
 
 }
