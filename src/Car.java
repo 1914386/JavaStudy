@@ -37,7 +37,7 @@ public class Car {
 	}
 	
 	public void run() {
-		System.out.println("달리다.");
+		System.out.println("Car의 run 메소드");
 	}
 	
 	public Car() {
