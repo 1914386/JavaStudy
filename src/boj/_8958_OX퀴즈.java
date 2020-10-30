@@ -10,25 +10,21 @@ public class _8958_OX퀴즈 {
 		
 		int n = sc.nextInt();
 		
-		String[] arr = new String[n];
+		String[] result = new String[n];
 		
-		for(int i=0; i<arr.length; i++) {
-			arr[i] = sc.nextLine();
-		}
-		
-		sc.close();
-		
-		
-		for(int i=0; i<arr.length; i++) {
+		for(int i=0; i<result.length; i++) {
+			// OX 답 입력받기
+			result[i] = sc.next();
 			
 			// 연속 횟수 count, 점수를 보관할 정수형 변수 score
 			int count = 0;
 			int score = 0;
 			
-			for(int j=0; j<arr[i].length(); j++) {
-				if(arr[i].charAt(j) == "O") {
+			// 배열 문자를 하나씩 비교* (https://st-lab.tistory.com/50?category=833672)
+			for(int j=0; j<result[i].length(); j++) {
+				if(result[i].charAt(j) == 'O') {
 					count++;
-				}else if(arr[i].charAt(j) == "X") {
+				}else if(result[i].charAt(j) == 'X') {
 					count = 0;
 				}
 				score += count;
@@ -36,6 +32,7 @@ public class _8958_OX퀴즈 {
 			System.out.println(score);
 		}
 		
+		sc.close();
 		
 	}
 
