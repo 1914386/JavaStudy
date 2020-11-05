@@ -20,7 +20,7 @@ public class _1712_손익분기점 {
 		// n = (a / (c - b)) + 1
 
 		if(c <= b) {
-			System.out.println("-1");
+			System.out.println(-1);
 		}else {
 			System.out.println((a / (c - b)) + 1);
 		}
