@@ -23,7 +23,6 @@ public class _2292_벌집 {
 		int sum = 2;
 		
 		if(num == 1) return 1;
-		
 		while(num >= sum) sum += 6*(cnt++);
 		
 		return cnt;
